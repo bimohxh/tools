@@ -1,0 +1,103 @@
+html,body {
+  margin: 0;
+  padding: 0; 
+  color: #555;
+  font-size: 14px;
+   background-color: #f8f9fa;
+}
+
+@font-face {
+ font-family: 'RussoOne';
+ src: url('/font/RussoOne-Regular.ttf') format('truetype')
+} 
+
+* {
+  box-sizing: border-box;
+  font-family: Menlo, Monaco, Consolas, "Helvetica Neue", Helvetica, "Courier New", 微软雅黑, monospace, Arial, sans-serif, 黑体;
+  
+}
+
+.left {
+  float: left
+}
+
+.right {
+  float: right
+}
+
+.clear {
+  clear: both
+}
+
+[v-cloak] {
+  display: none
+}
+
+a, svg {
+  transition: all,.5s,ease,0s;
+  -webkit-transition: all,.5s,ease,0s;
+  text-decoration: none
+}
+
+a:link, a:visited {
+  color: #CCC;
+}
+
+a:link svg, a:visited svg {
+  fill: #BBB; 
+}
+
+a:active, a:hover {
+  color: #555;
+}
+
+a:active svg, a:hover svg{
+  fill: #444;
+}
+
+
+
+img {
+  transition: all,.5s,ease,0s;
+  -webkit-transition: all,.5s,ease,0s;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  fill: #DDD;
+}
+
+header {
+  text-align: center;
+  color: #989898;
+  padding: 50px 0;
+}
+
+ header h1{
+   font-family: 'RussoOne'
+ }
+
+header p {
+  color: #DDD
+}
+
+
+footer {
+  text-align: center;
+  color: #DDD;
+  padding: 50px;
+}
+.main {
+  width: 80%; 
+  margin: 50px auto;
+
+}
+
+.tool-item {
+  width: 33%;
+  float: left;
+  text-align: center;
+  color: #DDD
+}
